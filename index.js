@@ -2,13 +2,18 @@ const express = require('express');
 const cors = require('cors');
 const environment = require('./src/config/environment');
 
+environment.configEnv();
+
 const app = express();
-app.use(cors());
+const corsOptions = {
+  origin: `${global.URL_HOM}`,
+};
+
+app.use(cors(corsOptions));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-environment.configUser();
 
 require('./src/routes/router')(app);
 
