@@ -1,10 +1,8 @@
 # 2021-1-PUMA-ApiGateway
-
+[![Build Status](https://dev.azure.com/puma-eps/Puma/_apis/build/status/ApiGateway-CD)](https://dev.azure.com/puma-eps/Puma/_build/latest?definitionId=3)
 ## Objetivo
 
-Esse serviço é responsável em fazer o tratamento das requisições entre os microsserviços [NotifyService](https://github.com/fga-eps-mds/2021-1-PUMA-NotifyService), [AlocateService](https://github.com/fga-eps-mds/2021-1-PUMA-AlocateService), [ProjectService](https://github.com/fga-eps-mds/2021-1-PUMA-ProjectService), [UserService](https://github.com/fga-eps-mds/2021-1-PUMA-UserService).
-
-## Como usar
+Esse serviço é responsável por fazer o tratamento das requisições entre os microsserviços [ProjectService](https://github.com/fga-eps-mds/2021-1-PUMA-ProjectService) e [UserService](https://github.com/fga-eps-mds/2021-1-PUMA-UserService).
 
 ### Como rodar
 
